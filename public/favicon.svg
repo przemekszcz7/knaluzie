@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161e53"/>
+      <stop offset="100%" stop-color="#202c76"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#fb8500"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#favBg)"/>
+  <!-- Crossed Paddles -->
+  <line x1="14" y1="50" x2="50" y2="14" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="15" cy="49" rx="4.5" ry="8" transform="rotate(-45 15 49)" fill="#ffffff"/>
+  <ellipse cx="49" cy="15" rx="4.5" ry="8" transform="rotate(-45 49 15)" fill="#ffffff"/>
+  
+  <line x1="50" y1="50" x2="14" y2="14" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="49" cy="49" rx="4.5" ry="8" transform="rotate(45 49 49)" fill="#ffffff"/>
+  <ellipse cx="15" cy="15" rx="4.5" ry="8" transform="rotate(45 15 15)" fill="#ffffff"/>
+
+  <!-- Kayak Silhouette Center -->
+  <path d="M8 32 C20 25 44 25 56 32 C44 39 20 39 8 32 Z" fill="url(#accentGrad)"/>
+  <ellipse cx="32" cy="32" rx="5" ry="3" fill="#161e53"/>
+  
+  <!-- Water Waves -->
+  <path d="M12 43 Q 22 39, 32 43 T 52 43" fill="none" stroke="#48cae4" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
