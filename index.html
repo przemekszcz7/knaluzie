@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kajaki na Luzie | Spływy doliną Liwca</title>
+  <meta name="description" content="Spływy kajakowe i SUP doliną rzeki Liwiec. Dobry sprzęt, świetna atmosfera i profesjonalna obsługa.">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kajaki na Luzie | Spływy doliną Liwca">
+  <meta property="og:description" content="Spływy kajakowe i SUP doliną rzeki Liwiec. Dobry sprzęt, świetna atmosfera i profesjonalna obsługa.">
+  <meta property="og:image" content="https://i.postimg.cc/9fdtpWFg/527758207-701097419578376-548236224907099526-n.jpg">
+  <meta property="og:locale" content="pl_PL">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="https://i.postimg.cc/yxVf9Dmy/437701272-364244406597014-7535880085990213910-n.jpg">
+
+  <!-- Preload hero background image -->
+  <link rel="preload" as="image" href="https://i.postimg.cc/9fdtpWFg/527758207-701097419578376-548236224907099526-n.jpg" fetchpriority="high">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://i.postimg.cc" crossorigin>
+  <link rel="dns-prefetch" href="https://i.postimg.cc">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       RESET & PODSTAWOWE STYLE
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --color-bg: #fdfffc;
+      --color-primary: #202c76;
+      --color-primary-dark: #161e53;
+      --color-primary-light: #2c3ca0;
+      --color-accent: #3d52d5;
+      --color-accent-soft: #edf0ff;
+      --color-text-dark: #1c2237;
+      --color-text-muted: #535c79;
+      --color-white: #ffffff;
+      --color-border: #e3e7f2;
+      --color-surface: #ffffff;
+      --color-surface-subtle: #f4f6fc;
+      --font-heading: 'Poppins', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 2px 8px rgba(32, 44, 118, 0.06);
+      --shadow-md: 0 8px 24px rgba(32, 44, 118, 0.09);
+      --shadow-lg: 0 16px 36px rgba(32, 44, 118, 0.14);
+      --transition: all 0.25s ease-in-out;
+      --nav-height: 76px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      background-color: var(--color-bg);
+      color: var(--color-text-dark);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+      width: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      overflow-x: hidden;
+      width: 100%;
+      position: relative;
+      background-color: var(--color-bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      touch-action: manipulation;
+    }
+
+    /* Zapobieganie rozciąganiu tekstu i przelewaniu poziomemu */
+    h1, h2, h3, h4, h5, h6, p, span, a, li {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      padding: 80px 0;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .section-title-wrap {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 50px auto;
+    }
+
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-heading);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-primary);
+      background-color: var(--color-accent-soft);
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      line-height: 1.25;
+      margin-bottom: 14px;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+    }
+
+    /* Przycisk bazowy */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 26px;
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: var(--transition);
+      white-space: nowrap;
+      text-align: center;
+      touch-action: manipulation;
+    }
+
+    .btn-primary {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border-color: var(--color-primary);
+    }
+
+    @media (hover: hover) {
+      .btn-primary:hover {
+        background-color: var(--color-primary-dark);
+        border-color: var(--color-primary-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+      }
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: var(--color-white);
+      border-color: var(--color-white);
+    }
+
+    @media (hover: hover) {
+      .btn-outline:hover {
+        background-color: var(--color-white);
+        color: var(--color-primary);
+        transform: translateY(-2px);
+      }
+    }
+
+    .btn-outline-navy {
+      background-color: transparent;
+      color: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+
+    @media (hover: hover) {
+      .btn-outline-navy:hover {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        transform: translateY(-2px);
+      }
+    }
+
+    .btn-block {
+      width: 100%;
+    }
+
+    .icon-svg {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      stroke-width: 2;
+      stroke: currentColor;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    /* Zoptymalizowana animacja reveal z akceleracją sprzętową */
+    .reveal {
+      opacity: 0;
+      transform: translate3d(0, 20px, 0);
+      transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+      will-change: opacity, transform;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      will-change: auto;
+    }
+
+    /* ==========================================================================
+       1. NAWIGACJA (STICKY)
+       ========================================================================== */
+    .header-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--nav-height);
+      background-color: rgba(253, 255, 252, 0.98);
+      z-index: 1000;
+      border-bottom: 1px solid var(--color-border);
+      transition: box-shadow 0.2s ease, background-color 0.2s ease;
+      transform: translateZ(0);
+    }
+
+    .header-nav.scrolled {
+      background-color: #ffffff;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .brand-logo-img {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+      border: 2px solid var(--color-primary);
+    }
+
+    .brand-logo-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.15;
+    }
+
+    .brand-logo-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+
+    .brand-logo-sub {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .nav-links {
+      display: none;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-text-dark);
+      padding: 6px 2px;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--color-primary);
+      transition: var(--transition);
+    }
+
+    .nav-link:hover {
+      color: var(--color-primary);
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: none;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .nav-phone-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-heading);
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      padding: 8px 14px;
+      background: var(--color-accent-soft);
+      border-radius: var(--radius-sm);
+    }
+
+    .nav-phone-link:hover {
+      background: #e2e7ff;
+    }
+
+    .hamburger-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 42px;
+      height: 42px;
+      background: transparent;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: 8px;
+      cursor: pointer;
+      z-index: 1010;
+    }
+
+    .hamburger-btn span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: var(--color-primary);
+      transition: var(--transition);
+    }
+
+    .hamburger-btn.open span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .hamburger-btn.open span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger-btn.open span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Mobile Drawer */
+    .mobile-menu {
+      position: fixed;
+      top: var(--nav-height);
+      left: 0;
+      width: 100%;
+      height: calc(100vh - var(--nav-height));
+      background-color: #ffffff;
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      transform: translate3d(100%, 0, 0);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s ease;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      z-index: 999;
+      border-top: 1px solid var(--color-border);
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .mobile-menu.open {
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .mobile-nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .mobile-nav-link {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .mobile-contact-box {
+      margin-top: auto;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* ==========================================================================
+       2. HERO (100VH)
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: var(--nav-height);
+      background-image: url('https://i.postimg.cc/9fdtpWFg/527758207-701097419578376-548236224907099526-n.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      color: var(--color-white);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(32, 44, 118, 0.92) 0%, rgba(22, 30, 83, 0.85) 60%, rgba(15, 21, 60, 0.88) 100%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+      padding: 40px 0;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 8px 16px;
+      border-radius: var(--radius-full);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-size: 2.35rem;
+      font-weight: 800;
+      line-height: 1.18;
+      margin-bottom: 20px;
+      color: var(--color-white);
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-subtitle {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.92);
+      margin-bottom: 36px;
+      max-width: 680px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .hero-quick-features {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .hero-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.92rem;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+    }
+
+    .hero-feature-icon {
+      width: 24px;
+      height: 24px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       3. PASEK ATUTÓW
+       ========================================================================== */
+    .strengths-section {
+      background-color: #ffffff;
+      border-bottom: 1px solid var(--color-border);
+      padding: 40px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .strengths-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .strength-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      padding: 16px;
+      border-radius: var(--radius-md);
+      background-color: var(--color-surface-subtle);
+      border: 1px solid var(--color-border);
+      transition: var(--transition);
+    }
+
+    .strength-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: #c7d1ee;
+    }
+
+    .strength-icon-box {
+      width: 48px;
+      height: 48px;
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .strength-title {
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 4px;
+    }
+
+    .strength-desc {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       4. O NAS
+       ========================================================================== */
+    .about-section {
+      background-color: var(--color-bg);
+    }
+
+    .about-text-col {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .about-text-col p {
+      margin-bottom: 18px;
+      color: var(--color-text-muted);
+      font-size: 1.05rem;
+    }
+
+    .about-lead {
+      font-size: 1.2rem !important;
+      font-weight: 600;
+      color: var(--color-primary) !important;
+      line-height: 1.6;
+    }
+
+    .about-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin: 28px 0;
+    }
+
+    .about-bullet {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 1.02rem;
+      color: var(--color-text-dark);
+      font-weight: 500;
+    }
+
+    .about-bullet-icon {
+      color: var(--color-primary);
+      margin-top: 3px;
+    }
+
+    /* ==========================================================================
+       5. OFERTA SPRZĘTOWA I TRASY
+       ========================================================================== */
+    .offer-section {
+      background-color: #ffffff;
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .offer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .offer-card {
+      background-color: var(--color-surface-subtle);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--color-primary);
+    }
+
+    .offer-card-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: var(--color-accent-soft);
+      color: var(--color-primary);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .offer-icon-wrapper {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-md);
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .offer-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 12px;
+    }
+
+    .offer-description {
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .offer-list {
+      list-style: none;
+      margin-top: auto;
+      padding-top: 18px;
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .offer-list-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: var(--color-text-dark);
+    }
+
+    .offer-list-item svg {
+      color: var(--color-primary);
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ==========================================================================
+       6. GALERIA (13 ZDJĘĆ Z LIGHTBOXEM)
+       ========================================================================== */
+    .gallery-section {
+      background-color: var(--color-bg);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      aspect-ratio: 4 / 3;
+      cursor: pointer;
+      background-color: #e2e8f0;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-border);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(32, 44, 118, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      color: var(--color-white);
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-zoom-icon {
+      width: 42px;
+      height: 42px;
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(4px);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(15, 21, 60, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      z-index: 2000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .lightbox-modal.active {
+      display: flex;
+    }
+
+    .lightbox-content {
+      position: relative;
+      max-width: 92vw;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .lightbox-img {
+      max-width: 100%;
+      max-height: 80vh;
+      object-fit: contain;
+      border-radius: var(--radius-md);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .lightbox-caption {
+      margin-top: 14px;
+      color: var(--color-white);
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .lightbox-btn {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.15);
+      color: var(--color-white);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: var(--radius-full);
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      z-index: 2010;
+    }
+
+    .lightbox-btn:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: scale(1.08);
+    }
+
+    .lightbox-close {
+      top: 20px;
+      right: 20px;
+    }
+
+    .lightbox-prev {
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .lightbox-next {
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .lightbox-prev:hover {
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    .lightbox-next:hover {
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    /* ==========================================================================
+       7. OPINIE
+       ========================================================================== */
+    .reviews-section {
+      background-color: #ffffff;
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .review-card {
+      background-color: var(--color-surface-subtle);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+
+    .review-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: #c7d1ee;
+      transform: translateY(-3px);
+    }
+
+    .review-stars {
+      display: flex;
+      gap: 4px;
+      color: #f59e0b;
+      margin-bottom: 14px;
+    }
+
+    .review-star-icon {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      stroke: none;
+    }
+
+    .review-text {
+      font-size: 0.98rem;
+      color: var(--color-text-dark);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-style: normal;
+    }
+
+    .review-author-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .review-author-avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-full);
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .review-author-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .review-author-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--color-primary);
+    }
+
+    .review-author-sub {
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
+
+    .reviews-cta-wrap {
+      text-align: center;
+    }
+
+    /* ==========================================================================
+       8. KONTAKT I REZERWACJA
+       ========================================================================== */
+    .contact-section {
+      background-color: var(--color-bg);
+    }
+
+    .contact-grid {
+      display: flex;
+      justify-content: center;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .contact-info-card {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      padding: 44px 36px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .contact-info-title {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .contact-info-desc {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 1rem;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .contact-items {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    .contact-item-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+    }
+
+    .contact-item-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-item-label {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 4px;
+    }
+
+    .contact-item-val {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--color-white);
+    }
+
+    .contact-item-val a:hover {
+      text-decoration: underline;
+    }
+
+    /* ==========================================================================
+       9. STOPKA
+       ========================================================================== */
+    .footer {
+      background-color: var(--color-primary-dark);
+      color: var(--color-white);
+      padding: 60px 0 30px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand-title {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .footer-brand-desc {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      max-width: 380px;
+    }
+
+    .footer-heading {
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--color-white);
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-link {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.92rem;
+    }
+
+    .footer-link:hover {
+      color: var(--color-white);
+      padding-left: 4px;
+    }
+
+    .footer-bottom {
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    /* Optymalizacja renderowania na urządzeniach mobilnych */
+    .gallery-section,
+    .reviews-section,
+    .contact-section,
+    .footer {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 500px;
+    }
+
+    /* ==========================================================================
+       MEDIA QUERIES (MOBILE / TABLET / DESKTOP)
+       ========================================================================== */
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
+
+      .section {
+        padding: 60px 0;
+      }
+
+      .hero-title {
+        font-size: 1.85rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 28px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .hero-buttons .btn {
+        width: 100%;
+      }
+
+      .section-title {
+        font-size: 1.65rem;
+      }
+
+      .contact-info-card {
+        padding: 30px 20px;
+      }
+
+      .contact-item-val {
+        font-size: 1.05rem;
+      }
+
+      .offer-card {
+        padding: 24px 18px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .section-title {
+        font-size: 2.35rem;
+      }
+
+      .hero-title {
+        font-size: 3.1rem;
+      }
+
+      .hero-quick-features {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .strengths-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: 2fr 1fr 1.5fr;
+      }
+
+      .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .section {
+        padding: 100px 0;
+      }
+
+      .section-title {
+        font-size: 2.7rem;
+      }
+
+      .hero-title {
+        font-size: 3.7rem;
+      }
+
+      .nav-links {
+        display: flex;
+      }
+
+      .nav-actions {
+        display: flex;
+      }
+
+      .hamburger-btn {
+        display: none;
+      }
+
+      .hero-quick-features {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .strengths-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .offer-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. NAWIGACJA (STICKY)
+       ========================================================================== -->
+  <header class="header-nav" id="mainHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" id="navBrandLogo">
+        <img src="https://i.postimg.cc/yxVf9Dmy/437701272-364244406597014-7535880085990213910-n.jpg" alt="Logo Kajaki na Luzie" class="brand-logo-img" referrerpolicy="no-referrer">
+        <div class="brand-logo-text">
+          <span class="brand-logo-name">Kajaki na Luzie</span>
+          <span class="brand-logo-sub">Spływy doliną Liwca</span>
+        </div>
+      </a>
+
+      <!-- Menu desktop -->
+      <ul class="nav-links" id="desktopNavLinks">
+        <li><a href="#onas" class="nav-link">O nas</a></li>
+        <li><a href="#oferta" class="nav-link">Oferta</a></li>
+        <li><a href="#galeria" class="nav-link">Galeria</a></li>
+        <li><a href="#opinie" class="nav-link">Opinie</a></li>
+        <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+      </ul>
+
+      <!-- Prawa strona nawigacji -->
+      <div class="nav-actions">
+        <a href="tel:880458419" class="nav-phone-link" id="navPhoneBtn">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          880 458 419
+        </a>
+        <a href="#kontakt" class="btn btn-primary" id="navBookingBtn">Zarezerwuj spływ</a>
+      </div>
+
+      <!-- Hamburger mobile -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Otwórz menu nawigacji" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Drawer mobile -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#onas" class="mobile-nav-link" onclick="closeMobileMenu()">O nas</a></li>
+        <li><a href="#oferta" class="mobile-nav-link" onclick="closeMobileMenu()">Oferta i sprzęt</a></li>
+        <li><a href="#galeria" class="mobile-nav-link" onclick="closeMobileMenu()">Galeria zdjęć</a></li>
+        <li><a href="#opinie" class="mobile-nav-link" onclick="closeMobileMenu()">Opinie klientów</a></li>
+        <li><a href="#kontakt" class="mobile-nav-link" onclick="closeMobileMenu()">Kontakt i rezerwacja</a></li>
+      </ul>
+      <div class="mobile-contact-box">
+        <a href="tel:880458419" class="btn btn-primary btn-block">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Zadzwoń: 880 458 419
+        </a>
+        <a href="#kontakt" class="btn btn-outline-navy btn-block" onclick="closeMobileMenu()">Formularz rezerwacji</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO (100VH)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M2 12h20M2 12c4-4 8-4 12 0s8 4 8 0M2 18c4-3 8-3 12 0s8 3 8 0M2 6c4-3 8-3 12 0s8 3 8 0"></path></svg>
+            Spływy kajakowe & SUP • Rzeka Liwiec
+          </div>
+          <h1 class="hero-title">Przepłyń rzekę Liwiec z Kajaki na Luzie</h1>
+          <p class="hero-subtitle">Wypocznij w dzikiej, otaczającej nas przyrodzie — zawsze z nami. Zapewniamy profesjonalny sprzęt, pełne bezpieczeństwo i swobodną atmosferę.</p>
+          
+          <div class="hero-buttons">
+            <a href="#kontakt" class="btn btn-primary" id="heroBookingCta">Zarezerwuj termin</a>
+            <a href="#galeria" class="btn btn-outline" id="heroGalleryCta">Zobacz galerię</a>
+          </div>
+
+          <div class="hero-quick-features">
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon-svg" style="width:14px;height:14px;" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span>Nowoczesne kajaki 1 i 2-osobowe & SUP</span>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon-svg" style="width:14px;height:14px;" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span>Transport sprzętu i uczestników</span>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon-svg" style="width:14px;height:14px;" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span>Elastyczne odcinki dopasowane do każdego</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. PASEK ATUTÓW
+         ========================================================================== -->
+    <section class="strengths-section" id="atuty">
+      <div class="container">
+        <div class="strengths-grid">
+          
+          <div class="strength-card reveal">
+            <div class="strength-icon-box">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+            </div>
+            <div>
+              <h3 class="strength-title">Nowy sprzęt i SUP</h3>
+              <p class="strength-desc">Wygodne, bezpieczne kajaki oraz stabilne deski SUP z kamizelkami i lekkimi wiosłami.</p>
+            </div>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-box">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div>
+              <h3 class="strength-title">Pomocna obsługa</h3>
+              <p class="strength-desc">Kuba i zgrana ekipa dbają o instruktaż, punktualną logistykę i bezstresowy przebieg spływu.</p>
+            </div>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-box">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M2 12h20M2 12c4-4 8-4 12 0s8 4 8 0M2 18c4-3 8-3 12 0s8 3 8 0M2 6c4-3 8-3 12 0s8 3 8 0"></path></svg>
+            </div>
+            <div>
+              <h3 class="strength-title">Dolina rzeki Liwiec</h3>
+              <p class="strength-desc">Czysta woda, piaszczyste płycizny i malownicze meandry pośród dzikiej mazowieckiej przyrody.</p>
+            </div>
+          </div>
+
+          <div class="strength-card reveal">
+            <div class="strength-icon-box">
+              <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+            </div>
+            <div>
+              <h3 class="strength-title">Świetna atmosfera</h3>
+              <p class="strength-desc">Prawdziwy odpoczynek na luzie, bez pośpiechu i w otoczeniu pozytywnych ludzi.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. O NAS
+         ========================================================================== -->
+    <section class="section about-section" id="onas">
+      <div class="container">
+        <div class="about-text-col reveal">
+          <div class="section-tag">
+            <svg class="icon-svg" style="width:16px;height:16px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            Poznaj Kajaki na Luzie
+          </div>
+          <h2 class="section-title">Pasja do rzeki Liwiec i wypoczynku na wodzie</h2>
+          <p class="about-lead">Organizujemy niezapomniane spływy kajakowe oraz wyprawy na deskach SUP w sercu malowniczej doliny Liwca.</p>
+          <p>Kajaki na Luzie powstały z miłości do natury i aktywnego relaksu. Znamy każdy zakręt Liwca, jego piaszczyste plaże i bezpieczne miejsca na postój. Naszym celem jest zapewnienie Ci czystej przyjemności z pływania — bez stresu organizacyjnego.</p>
+          <p>Niezależnie od tego, czy planujesz rodzinny wypad z dziećmi, aktywną randkę na SUP-ach, czy integrację ze znajomymi — dobierzemy idealną trasę, przygotujemy czysty i sprawdzony sprzęt oraz przetransportujemy Was z uśmiechem na start i metę.</p>
+
+          <ul class="about-bullets">
+            <li class="about-bullet">
+              <svg class="icon-svg about-bullet-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Kompleksowe wsparcie logistyczne i transport sprzętu</span>
+            </li>
+            <li class="about-bullet">
+              <svg class="icon-svg about-bullet-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Atestowane kamizelki asekuracyjne dla dorosłych i dzieci</span>
+            </li>
+            <li class="about-bullet">
+              <svg class="icon-svg about-bullet-icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Instruktaż przed spływem dla osób początkujących</span>
+            </li>
+          </ul>
+
+          <div style="margin-top: 28px;">
+            <a href="#kontakt" class="btn btn-primary" id="aboutCtaBtn">Skontaktuj się z nami</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. OFERTA
+         ========================================================================== -->
+    <section class="section offer-section" id="oferta">
+      <div class="container">
+        <div class="section-title-wrap reveal">
+          <div class="section-tag">
+            <svg class="icon-svg" style="width:16px;height:16px;" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Oferta i Sprzęt
+          </div>
+          <h2 class="section-title">Wybierz swój sposób na Liwiec</h2>
+          <p class="section-subtitle">Oferujemy sprawdzony, wysokiej klasy sprzęt do turystyki wodnej oraz elastyczną organizację spływów jedno- i kilkugodzinnych.</p>
+        </div>
+
+        <div class="offer-grid">
+          
+          <!-- Karta 1: Kajaki 2-osobowe -->
+          <div class="offer-card reveal">
+            <div class="offer-card-badge">Popularne</div>
+            <div class="offer-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.5L12 21.5L2 16.5"></path><path d="M22 12L12 17L2 12"></path><path d="M2 7.5L12 12.5L22 7.5L12 2.5L2 7.5Z"></path></svg>
+            </div>
+            <h3 class="offer-title">Kajaki 2-osobowe</h3>
+            <p class="offer-description">Stabilne, pakowne i bardzo wygodne jednostki idealne dla par, przyjaciół oraz rodziców z dziećmi. Wyposażone w profilowane fotele.</p>
+            <ul class="offer-list">
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Wygodne oparcia i dużo miejsca na bagaż
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Lekkie wiosła aluminiowe w zestawie
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Możliwość dostawki dla dziecka
+              </li>
+            </ul>
+            <a href="#kontakt" class="btn btn-outline-navy btn-block">Zarezerwuj kajak</a>
+          </div>
+
+          <!-- Karta 2: Deski SUP -->
+          <div class="offer-card reveal">
+            <div class="offer-card-badge">Trend</div>
+            <div class="offer-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2a4 4 0 0 0-4 4v12a4 4 0 0 0 8 0V6a4 4 0 0 0-4-4z"></path><line x1="12" y1="6" x2="12" y2="18"></line><line x1="9" y1="10" x2="15" y2="10"></line></svg>
+            </div>
+            <h3 class="offer-title">Deski SUP</h3>
+            <p class="offer-description">Stand-Up Paddleboarding po płytkim i bezpiecznym Liwcu. Doskonały trening równowagi, relaks i niepowtarzalna perspektywa rzeki.</p>
+            <ul class="offer-list">
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Szerokie, stabilne deski all-round
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Regulowane wiosło i leash bezpieczeństwa
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Świetna zabawa na piaszczystych płyciznach
+              </li>
+            </ul>
+            <a href="#kontakt" class="btn btn-outline-navy btn-block">Wypożycz SUP</a>
+          </div>
+
+          <!-- Karta 3: Spływy grupowe -->
+          <div class="offer-card reveal">
+            <div class="offer-card-badge">Grupy & Firmy</div>
+            <div class="offer-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="offer-title">Spływy Grupowe</h3>
+            <p class="offer-description">Kompleksowa organizacja spływów dla grup zorganizowanych, firmowych imprez integracyjnych, wieczorów panieńskich i kawalerskich.</p>
+            <ul class="offer-list">
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Flota kajaków i desek dla dużych grup
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Sprawna koordynacja startu i odbioru
+              </li>
+              <li class="offer-list-item">
+                <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Pomoc w doborze miejsca na ognisko
+              </li>
+            </ul>
+            <a href="#kontakt" class="btn btn-outline-navy btn-block">Zapytaj o termin</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       6. GALERIA (13 ZDJĘĆ Z LIGHTBOXEM)
+       ========================================================================== -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-title-wrap reveal">
+          <div class="section-tag">
+            <svg class="icon-svg" style="width:16px;height:16px;" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+            Galeria Zdjęć
+          </div>
+          <h2 class="section-title">Kadry znad rzeki Liwiec</h2>
+          <p class="section-subtitle">Zobacz, jak wyglądają nasze spływy i urokliwe zakątki Liwca. Kliknij na zdjęcie, aby otworzyć powiększenie.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Zdjęcie 1 (bez lazy) -->
+          <div class="gallery-item reveal" data-index="0">
+            <img src="https://i.postimg.cc/nVgjCyn9/482059578-590610130627106-6896152076849450495-n.jpg" alt="Spływ kajakowy Liwiec - widok z wody" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 2 -->
+          <div class="gallery-item reveal" data-index="1">
+            <img src="https://i.postimg.cc/44q7mDXy/483922401-590609900627129-4386508344057307692-n.jpg" alt="Kajaki na Liwcu - relaks w naturze" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 3 -->
+          <div class="gallery-item reveal" data-index="2">
+            <img src="https://i.postimg.cc/1R2nfkyq/493686847-629099713444814-8348074118596146922-n.jpg" alt="Dolina rzeki Liwiec - meandry" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 4 -->
+          <div class="gallery-item reveal" data-index="3">
+            <img src="https://i.postimg.cc/kMz6B07t/494149113-629099846778134-7893930319620454723-n.jpg" alt="Przystanek na piaszczystej plaży" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 5 -->
+          <div class="gallery-item reveal" data-index="4">
+            <img src="https://i.postimg.cc/dQpkLbJC/494197374-629099873444798-1487985410936966761-n.jpg" alt="Sprzęt kajakowy Kajaki na Luzie" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 6 -->
+          <div class="gallery-item reveal" data-index="5">
+            <img src="https://i.postimg.cc/qBShzPpy/494556693-629100086778110-7293642661838595576-n.jpg" alt="Wyprawa ze znajomymi doliną Liwca" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 7 -->
+          <div class="gallery-item reveal" data-index="6">
+            <img src="https://i.postimg.cc/KvTKL0YR/506445442-663725089982276-1967136798536646944-n.jpg" alt="Słoneczny dzień na spływie Liwcem" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 8 -->
+          <div class="gallery-item reveal" data-index="7">
+            <img src="https://i.postimg.cc/CMXBz3wb/506475704-663724679982317-7024389884547926202-n.jpg" alt="Kajaki dwuosobowe na rzece" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 9 -->
+          <div class="gallery-item reveal" data-index="8">
+            <img src="https://i.postimg.cc/L6PqfxsY/507672356-663725226648929-4558449667270667509-n.jpg" alt="Przyroda i malownicze brzegi Liwca" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 10 -->
+          <div class="gallery-item reveal" data-index="9">
+            <img src="https://i.postimg.cc/YqF4gdSj/508379717-663725043315614-6864830097158770928-n.jpg" alt="Spływ SUP na Liwcu" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 11 -->
+          <div class="gallery-item reveal" data-index="10">
+            <img src="https://i.postimg.cc/yYRJ9LNx/508402327-663725016648950-1968385837661709554-n.jpg" alt="Grupa kajakarzy na trasie" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 12 -->
+          <div class="gallery-item reveal" data-index="11">
+            <img src="https://i.postimg.cc/7YzC7KL2/526881491-701095366245248-3337746859541823008-n.jpg" alt="Czysta woda i dzika rzeka Liwiec" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 13 -->
+          <div class="gallery-item reveal" data-index="12">
+            <img src="https://i.postimg.cc/WbZDr54J/527571456-701095299578588-2155375221512059999-n.jpg" alt="Zachód słońca nad Liwcem" loading="lazy" referrerpolicy="no-referrer">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Powiększenie zdjęcia">
+      <button class="lightbox-btn lightbox-close" id="lightboxCloseBtn" aria-label="Zamknij podgląd">
+        <svg class="icon-svg" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <button class="lightbox-btn lightbox-prev" id="lightboxPrevBtn" aria-label="Poprzednie zdjęcie">
+        <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button class="lightbox-btn lightbox-next" id="lightboxNextBtn" aria-label="Następne zdjęcie">
+        <svg class="icon-svg" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+      <div class="lightbox-content">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg" referrerpolicy="no-referrer">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         7. OPINIE
+         ========================================================================== -->
+    <section class="section reviews-section" id="opinie">
+      <div class="container">
+        <div class="section-title-wrap reveal">
+          <div class="section-tag">
+            <svg class="icon-svg" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            Opinie Klientów
+          </div>
+          <h2 class="section-title">Co mówią o nas kajakarze</h2>
+          <p class="section-subtitle">Prawdziwe doświadczenia osób, które spływały rzeką Liwiec z naszą ekipą.</p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <!-- Opinia 1 -->
+          <div class="review-card reveal">
+            <p class="review-text">"Super organizacja spływu! Sprzęt w idealnym stanie, bardzo wygodne kajaki i kamizelki. Kuba zadbał o każdy detal – od bezpiecznego zwodowania po punktualny odbiór. Liwiec zachwyca widokami, na pewno wrócimy za rok!"</p>
+          </div>
+
+          <!-- Opinia 2 -->
+          <div class="review-card reveal">
+            <p class="review-text">"Świetna atmosfera, pełen profesjonalizm i zero stresu. Spływaliśmy z dziećmi, trasa była dobrana idealnie do naszych możliwości. Zdecydowanie najlepsza wypożyczalnia nad Liwcem!"</p>
+          </div>
+
+          <!-- Opinia 3 -->
+          <div class="review-card reveal">
+            <p class="review-text">"Polecam w 100%! Płynęliśmy na deskach SUP oraz kajakach dwuosobowych. Bardzo elastyczne podejście do godzin i rewelacyjny kontakt telefoniczny. Niezapomniany weekend w naturze."</p>
+          </div>
+
+        </div>
+
+        <div class="reviews-cta-wrap reveal">
+          <a href="https://www.facebook.com/profile.php?id=100090343717571&sk=reviews" target="_blank" rel="noopener" class="btn btn-outline-navy" id="fbReviewsBtn">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            Zobacz wszystkie opinie na Facebooku
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. KONTAKT I REZERWACJA
+         ========================================================================== -->
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="section-title-wrap reveal">
+          <div class="section-tag">
+            <svg class="icon-svg" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Kontakt & Rezerwacja
+          </div>
+          <h2 class="section-title">Zarezerwuj swój spływ nad Liwcem</h2>
+          <p class="section-subtitle">Skontaktuj się z nami bezpośrednio — chętnie doradzimy, odpowiemy na pytania i zarezerwujemy sprzęt.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Karta z danymi kontaktowymi -->
+          <div class="contact-info-card reveal">
+            <div>
+              <h3 class="contact-info-title">Kajaki na Luzie</h3>
+              <p class="contact-info-desc">Jesteśmy do Twojej dyspozycji przez cały sezon. Chętnie doradzimy najlepszy odcinek rzeki Liwiec i odpowiemy na każde pytanie.</p>
+
+              <div class="contact-items">
+                
+                <div class="contact-item-row">
+                  <div class="contact-item-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Zadzwoń do nas</div>
+                    <div class="contact-item-val"><a href="tel:880458419">880 458 419</a></div>
+                  </div>
+                </div>
+
+                <div class="contact-item-row">
+                  <div class="contact-item-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Napisz e-mail</div>
+                    <div class="contact-item-val"><a href="mailto:kajakinaluzieliwiec@wp.pl">kajakinaluzieliwiec@wp.pl</a></div>
+                  </div>
+                </div>
+
+                <div class="contact-item-row">
+                  <div class="contact-item-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Profil Facebook</div>
+                    <div class="contact-item-val"><a href="https://www.facebook.com/profile.php?id=100090343717571" target="_blank" rel="noopener">Kajaki na Luzie - Liwiec</a></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div>
+              <a href="tel:880458419" class="btn btn-outline btn-block" id="directCallBtn">
+                <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Zadzwoń teraz: 880 458 419
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       9. STOPKA
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div>
+          <h4 class="footer-brand-title">Kajaki na Luzie</h4>
+          <p class="footer-brand-desc">Spływy kajakowe i deski SUP doliną rzeki Liwiec. "Przepłyń rzekę Liwiec. Wypocznij w dzikiej otaczającej nas przyrodzie. Zawsze z nami!"</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Szybka nawigacja</h4>
+          <ul class="footer-links">
+            <li><a href="#onas" class="footer-link">O nas</a></li>
+            <li><a href="#oferta" class="footer-link">Oferta sprzętu</a></li>
+            <li><a href="#galeria" class="footer-link">Galeria zdjęć</a></li>
+            <li><a href="#opinie" class="footer-link">Opinie klientów</a></li>
+            <li><a href="#kontakt" class="footer-link">Kontakt i rezerwacja</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Dane kontaktowe</h4>
+          <ul class="footer-links">
+            <li><a href="tel:880458419" class="footer-link">Telefon: 880 458 419</a></li>
+            <li><a href="mailto:kajakinaluzieliwiec@wp.pl" class="footer-link">E-mail: kajakinaluzieliwiec@wp.pl</a></li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100090343717571" target="_blank" rel="noopener" class="footer-link">
+                Facebook: Kajaki na Luzie
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100090343717571&sk=reviews" target="_blank" rel="noopener" class="footer-link">
+                Opinie na Facebooku
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kajaki na Luzie – Spływy doliną Liwca. Wszelkie prawa zastrzeżone.</p>
+        <p>Bezpieczne i profesjonalne spływy rzeką Liwiec.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       SKRYPTY JAVASCRIPT
+       ========================================================================== -->
+  <script>
+    // 1. DANE GALERII ZDJĘĆ
+    const galleryData = [
+      { src: "https://i.postimg.cc/nVgjCyn9/482059578-590610130627106-6896152076849450495-n.jpg", title: "Spływ kajakowy Liwiec - widok z wody" },
+      { src: "https://i.postimg.cc/44q7mDXy/483922401-590609900627129-4386508344057307692-n.jpg", title: "Kajaki na Liwcu - relaks w naturze" },
+      { src: "https://i.postimg.cc/1R2nfkyq/493686847-629099713444814-8348074118596146922-n.jpg", title: "Dolina rzeki Liwiec - meandry" },
+      { src: "https://i.postimg.cc/kMz6B07t/494149113-629099846778134-7893930319620454723-n.jpg", title: "Przystanek na piaszczystej plaży" },
+      { src: "https://i.postimg.cc/dQpkLbJC/494197374-629099873444798-1487985410936966761-n.jpg", title: "Sprzęt kajakowy Kajaki na Luzie" },
+      { src: "https://i.postimg.cc/qBShzPpy/494556693-629100086778110-7293642661838595576-n.jpg", title: "Wyprawa ze znajomymi doliną Liwca" },
+      { src: "https://i.postimg.cc/KvTKL0YR/506445442-663725089982276-1967136798536646944-n.jpg", title: "Słoneczny dzień na spływie Liwcem" },
+      { src: "https://i.postimg.cc/CMXBz3wb/506475704-663724679982317-7024389884547926202-n.jpg", title: "Kajaki dwuosobowe na rzece" },
+      { src: "https://i.postimg.cc/L6PqfxsY/507672356-663725226648929-4558449667270667509-n.jpg", title: "Przyroda i malownicze brzegi Liwca" },
+      { src: "https://i.postimg.cc/YqF4gdSj/508379717-663725043315614-6864830097158770928-n.jpg", title: "Spływ SUP na Liwcu" },
+      { src: "https://i.postimg.cc/yYRJ9LNx/508402327-663725016648950-1968385837661709554-n.jpg", title: "Grupa kajakarzy na trasie" },
+      { src: "https://i.postimg.cc/7YzC7KL2/526881491-701095366245248-3337746859541823008-n.jpg", title: "Czysta woda i dzika rzeka Liwiec" },
+      { src: "https://i.postimg.cc/WbZDr54J/527571456-701095299578588-2155375221512059999-n.jpg", title: "Zachód słońca nad Liwcem" }
+    ];
+
+    let currentPhotoIndex = 0;
+
+    // 2. OBSŁUGA HAMBURGER MENU MOBILE
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    function toggleMobileMenu() {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburgerBtn.classList.toggle('open');
+      hamburgerBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+      hamburgerBtn.classList.remove('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    hamburgerBtn.addEventListener('click', toggleMobileMenu);
+
+    // 3. HEADER SCROLL SHADOW (ZOPTYMALIZOWANE RAF + PASSIVE)
+    const mainHeader = document.getElementById('mainHeader');
+    let isScrollTicking = false;
+    window.addEventListener('scroll', () => {
+      if (!isScrollTicking) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 20) {
+            mainHeader.classList.add('scrolled');
+          } else {
+            mainHeader.classList.remove('scrolled');
+          }
+          isScrollTicking = false;
+        });
+        isScrollTicking = true;
+      }
+    }, { passive: true });
+
+    // 4. INTERSECTION OBSERVER DLA ANIMACJI REVEAL
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.1
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 5. OBSŁUGA LIGHTBOXA GALERII
+    const lightboxModal = document.getElementById('lightboxModal');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const lightboxCloseBtn = document.getElementById('lightboxCloseBtn');
+    const lightboxPrevBtn = document.getElementById('lightboxPrevBtn');
+    const lightboxNextBtn = document.getElementById('lightboxNextBtn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    function openLightbox(index) {
+      currentPhotoIndex = parseInt(index, 10);
+      updateLightboxImage();
+      lightboxModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightboxModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightboxImage() {
+      const photo = galleryData[currentPhotoIndex];
+      if (photo) {
+        lightboxImg.src = photo.src;
+        lightboxImg.alt = photo.title;
+        lightboxCaption.textContent = `${photo.title} (${currentPhotoIndex + 1} / ${galleryData.length})`;
+      }
+    }
+
+    function showPrevPhoto() {
+      currentPhotoIndex = (currentPhotoIndex - 1 + galleryData.length) % galleryData.length;
+      updateLightboxImage();
+    }
+
+    function showNextPhoto() {
+      currentPhotoIndex = (currentPhotoIndex + 1) % galleryData.length;
+      updateLightboxImage();
+    }
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const index = item.getAttribute('data-index');
+        openLightbox(index);
+      });
+    });
+
+    lightboxCloseBtn.addEventListener('click', closeLightbox);
+    lightboxPrevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrevPhoto(); });
+    lightboxNextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNextPhoto(); });
+
+    lightboxModal.addEventListener('click', (e) => {
+      if (e.target === lightboxModal || e.target.classList.contains('lightbox-content')) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (!lightboxModal.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showPrevPhoto();
+      if (e.key === 'ArrowRight') showNextPhoto();
+    });
+  </script>
+</body>
+</html>

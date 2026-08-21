@@ -1,0 +1,6 @@
+{
+  "name": "Kajaki na Luzie",
+  "description": "Profesjonalna strona spływów kajakowych i desek SUP doliną rzeki Liwiec – Kajaki na Luzie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
